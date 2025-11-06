@@ -63,10 +63,6 @@ npm run dev
 - **Payment Integration**: Annual subscription model (can be disabled)
 - **Search Functionality**: Find family members quickly
 
-## 📱 Demo
-
-Live Application: https://apnaparivar.vercel.app
-API Documentation: https://apnaparivar-api.render.com/docs
 
 
 Built with ❤️ for families to stay connected digitally.
