@@ -66,15 +66,3 @@ npm run dev
 
 
 Built with ❤️ for families to stay connected digitally.
-
-## 🧩 Payments Toggle
-
-If you don't want to use Razorpay right now, you can keep billing disabled. The app will run in free mode and the Billing page will show that payments are turned off.
-
-1) Backend: set the following in `backend/.env` (default is already disabled)
-
-```
-PAYMENTS_ENABLED=false
-```
-
-2) When disabled, the `/api/payments/create-order` and `/api/payments/verify` endpoints will return a disabled message, and the Billing UI will hide payment buttons. The `/api/payments/status` endpoint still works to show trial/expiry information.
